@@ -13,6 +13,8 @@
 		6E6D01822699E4F600D4C992 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E6D01812699E4F600D4C992 /* Preview Assets.xcassets */; };
 		6E6D018D2699E4F600D4C992 /* BusinessCarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6D018C2699E4F600D4C992 /* BusinessCarsTests.swift */; };
 		6E6D01982699E4F600D4C992 /* BusinessCarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6D01972699E4F600D4C992 /* BusinessCarsUITests.swift */; };
+		6E6D01A72699E77400D4C992 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E6D01A62699E77400D4C992 /* Lato-Regular.ttf */; };
+		6E6D01AC2699F00F00D4C992 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6D01AB2699F00F00D4C992 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		6E6D01932699E4F600D4C992 /* BusinessCarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusinessCarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E6D01972699E4F600D4C992 /* BusinessCarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCarsUITests.swift; sourceTree = "<group>"; };
 		6E6D01992699E4F600D4C992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E6D01A62699E77400D4C992 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		6E6D01AB2699F00F00D4C992 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +99,9 @@
 		6E6D01792699E4F500D4C992 /* BusinessCars */ = {
 			isa = PBXGroup;
 			children = (
+				6E6D01AA2699EFF700D4C992 /* View */,
+				6E6D01A52699E75400D4C992 /* Fonts */,
 				6E6D017A2699E4F500D4C992 /* BusinessCarsApp.swift */,
-				6E6D017C2699E4F500D4C992 /* ContentView.swift */,
 				6E6D017E2699E4F600D4C992 /* Assets.xcassets */,
 				6E6D01832699E4F600D4C992 /* Info.plist */,
 				6E6D01802699E4F600D4C992 /* Preview Content */,
@@ -128,6 +133,23 @@
 				6E6D01992699E4F600D4C992 /* Info.plist */,
 			);
 			path = BusinessCarsUITests;
+			sourceTree = "<group>";
+		};
+		6E6D01A52699E75400D4C992 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6E6D01A62699E77400D4C992 /* Lato-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		6E6D01AA2699EFF700D4C992 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E6D017C2699E4F500D4C992 /* ContentView.swift */,
+				6E6D01AB2699F00F00D4C992 /* InfoView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E6D01822699E4F600D4C992 /* Preview Assets.xcassets in Resources */,
+				6E6D01A72699E77400D4C992 /* Lato-Regular.ttf in Resources */,
 				6E6D017F2699E4F600D4C992 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E6D017D2699E4F500D4C992 /* ContentView.swift in Sources */,
+				6E6D01AC2699F00F00D4C992 /* InfoView.swift in Sources */,
 				6E6D017B2699E4F500D4C992 /* BusinessCarsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
